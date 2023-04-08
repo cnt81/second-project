@@ -125,11 +125,8 @@
 }
 
 .header__square_rotate {
+  transition: rotate (-15deg);
   animation: rotation 20s infinite;
-}
-
-.header__square_rotate:hover {
-  transition: rotate(360deg);
 }
 
 /* ------------------------ END HEADER RIGHT ---------------------- */
@@ -146,7 +143,7 @@
   margin-top: 100px;
 }
 
-/* START DESCRIPTION */
+/* =========================== START DESCRIPTION =========================== */
 .description {
   display: flex;
   justify-content: center;
@@ -196,9 +193,46 @@
   font-size: 24px;
   display: contents;
 }
-/* END DESCRIPTION */
+/* =========================== END DESCRIPTION =========================== */
 
-/* START DIGITS */
+/* =========================== START TECHNIQUES =========================== */
+.techniques {
+  background-color: aqua;
+  width: 920px;
+  margin: auto;
+}
+
+.cards {
+  list-style-type: none;
+  width: 240px;
+  margin: 0 100px 0 100px;
+  border: 1px red solid;
+}
+
+.cards__item {
+  width: 160px;
+  border: 1px green solid;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  display: flex;
+  justify-content: center;
+}
+
+.cards__description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* =========================== END TECHNIQUES =========================== */
+
+/* =========================== START DIGITS =========================== */
 .digits {
   width: auto;
   margin-bottom: 100px;
