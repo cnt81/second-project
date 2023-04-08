@@ -204,20 +204,27 @@
 
 .cards {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
   width: 240px;
-  margin: 0 100px 0 100px;
+  margin: 0 50px 0 50px;
+  padding: 0;
   border: 1px red solid;
 }
 
 .cards__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 160px;
   border: 1px green solid;
 }
 
 .cards__image {
-  width: 160px;
-  height: 160px;
+  text-align: center;
+  width: 120px;
   border-radius: 50%;
+  margin: auto;
 }
 
 .cards__title {
